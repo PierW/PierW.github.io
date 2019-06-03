@@ -60,9 +60,10 @@ function init() {
 
 
   var numDinamic = 580;
-
+  var sizeBubbles = 20;
   if (width <= 600) {
     numDinamic = 400;
+    sizeBubbles = 15;
   }
   // create two boxes and a ground
   // add all of the bodies to the world
@@ -112,7 +113,7 @@ function init() {
 
 
   for (let i = 0; i < 230; i++) {
-    let radius = 2 + Math.random() * 20;
+    let radius = 2 + Math.random() * sizeBubbles;
     World.add(engine.world, Bodies.circle(
     40 + Math.random() * width - 80,
     40 + Math.random() * 100,
