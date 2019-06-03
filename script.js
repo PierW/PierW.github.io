@@ -61,9 +61,10 @@ function init() {
 
   var numDinamic = 580;
   var sizeBubbles = 20;
+
   if (width <= 600) {
-    numDinamic = 400;
-    sizeBubbles = 15;
+    numDinamic = 300;
+    sizeBubbles = 14;
   }
   // create two boxes and a ground
   // add all of the bodies to the world
@@ -74,7 +75,7 @@ function init() {
       fillStyle: "trasparent" } }),
 
 
-  Bodies.rectangle(width / 2, height / 2 + 18, 310, 20, {
+  Bodies.rectangle(width / 2, height / 2 + 18, 305, 20, {
     isStatic: true,
     render: {
       fillStyle: "trasparent" } }),

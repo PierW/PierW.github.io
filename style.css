@@ -55,6 +55,10 @@ body {
 
 @media screen and (max-width: 600px) {
   .title h1 {
-    font-size: 35px;
+    font-size: 32px;
+  }
+
+  .title h3 {
+    font-size: 18px;
   }
 }
