@@ -21,7 +21,7 @@ window.onload = function() {
     'An unconventional webdev 🤪',
     'You can check out my website: <a href="http://themillennials.it/" target="_blank">The Millennials</a>',
     'Follow me also on:',
-    '<a target="_blank" href="https://twitter.com/pierpaolow">Twitter</a><br><a target="_blank" href="https://www.youtube.com/channel/UCKZ2y7hEOS-_OM1BIU_sDWA">Youtube</a><br><a target="_blank" href="https://www.instagram.com/pierpaolo_w/">Instagram</a>',
+    '<a target="_blank" href="https://www.threads.net/@pierpaolo_w">Threads</a><br><a target="_blank" href="https://twitter.com/PierpaoloW">Twitter</a><br><a target="_blank" href="https://www.youtube.com/channel/UCKZ2y7hEOS-_OM1BIU_sDWA">Youtube</a><br><a target="_blank" href="https://www.instagram.com/pierpaolo_w/">Instagram</a>',
     getCurrentTime(),
     '👀 P.W.'
   ]
